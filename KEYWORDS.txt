@@ -1,0 +1,12 @@
+MPU6050			KEYWORD1
+begin			KEYWORD2
+config_accel		KEYWORD2
+config_gyro		KEYWORD2
+config_filter		KEYWORD2
+x_accel			KEYWORD2
+y_accel			KEYWORD2
+z_accel			KEYWORD2
+x_gyro			KEYWORD2
+y_gyro			KEYWORD2
+z_gyro			KEYWORD2
+gyro			KEYWORD2

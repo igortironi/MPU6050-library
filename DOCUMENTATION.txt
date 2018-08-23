@@ -1,0 +1,36 @@
+class name: MPU6050;
+
+use this function to initialize the sensor begin();
+
+use this function to set the accelerometer scale:
+ 0=2g,
+ 1=4g,
+ 2=8g,
+ 3=16g  :config_accel(scale identifier);
+
+use this function to set the gyroscope scale:
+ 0=200°/s,
+ 1=500°/s,
+ 2=1000°/s, 
+ 3=2000°/s,  : config_gyro(scale identifier);
+
+use this function to active and configure the digital low pass filter: 
+ 0=260,
+ 1=184,
+ 2=94,
+ 3=44,
+ 4=21,
+ 5=10,
+ 6=5	:config_filter(filter identifier);
+
+
+use the functions below to get the axes values for both accelerometer and gyroscope:
+    int x_accel();
+    int y_accel();
+    int z_accel();
+    int x_gyro();
+    int y_gyro();
+    int z_gyro();
+
+
+use this function like a "delay" until achieve the desired angle: gyro(angle);
